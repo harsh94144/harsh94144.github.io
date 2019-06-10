@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style >
+body {
+        background-image: url("h1.jpg");
+} 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("h1.jpg");
+  color: black;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:white; 
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a target="_blank" href="buy.html" class="left">Buy</a>
+  <a target="_blank" href="sell.html" class="left">Sell</a>
+  <a target="_blank" href="rent.html" class="left">Rent</a>
+  <a target="_blank" href="#" class="left">WEBSITE</a>
+</div><br><br>
+
+<div class="header">
+  <h1>Kartik Real Estate</h1>
+  <p>We’ll help you find a place you’ll love.</p><br><br>
+</div>
+
+
+
+
+<h1 style=text-align:center;color:white;>"We’re reimagining how you buy, sell and rent.<br> It’s now easier to get into a place you love. So let’s do this, together."</h1><br><br><br><br><br>
+
+<div class="row">
+  <div class="side">
+    <h2>BUY a house</h2>
+    <h5>IMAGE:</h5>
+    <img class="mySlides" src="g.jpg" style="width:100%">
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>Hotels</h3>
+    <p>The lap of luxury.</p>
+<img class="mySlides" src="hotel.jpg" style="width:100%">
+  </div>
+  <div class="main">
+    <h2>Marketing your Home</h2>
+    <h5>The sale of a significant home is truly noteworthy. To represent a home of distinction requires highly-qualified real estate professionals with global reach and local expertise. Founded in 1976, the Sotheby’s International Realty brand is a unique and distinctive network of brokerage agencies offering a wide selection of luxury homes, estates and properties for sale throughout the world. Connect with a local affiliate today to list your home, condo, villa or other property, or to find the perfect home to match your lifestyle.</h5>
+    <img class="mySlides" src="mar.jpg" style="width:100%">
+    <br>
+    <h2>Luxury Real Estate, Worldwide</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <img class="mySlides" src="lux.jpg" style="width:100%">
+    <p>Some text..</p>
+    <p>The Sotheby's International Realty® network provides access to luxury real estate and homes for sale worldwide. Our website lets you search property listings globally, and includes a large inventory of luxury homes for sale. Our listings include all types of homes, including houses, condos, townhomes, villas and more. We can also match your lifestyle choices such as waterfront, golf, island, vacation, mountain and many others.
+
+Browse our newest collection of global luxury real estate.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <img class="mySlides" src="fit.jpg" style="width:10%">
+  <p style=color:black;text-align:center-left;> CONTACT : 941445464<br>Email:kar@gmail.com</p>
+</div>
+ 
+
+</body>
+</html>
